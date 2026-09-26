@@ -1,0 +1,7 @@
+services:
+  interference-fit:
+    build: .
+    image: interference-fit-service:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
